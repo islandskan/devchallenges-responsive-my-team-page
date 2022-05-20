@@ -20,7 +20,7 @@ body {
 
 .body-wrapper {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 }
 
 @media (min-width: 320px) {
@@ -39,7 +39,6 @@ body {
   }
 
   .about-container {
-    padding-right: 1em;
     margin-top: 2.3em;
   }
 
@@ -226,5 +225,9 @@ body {
   }
   .about-txt {
     font-size: 1.05rem;
+  }
+
+  .team-card {
+    max-width: 100%;
   }
 }
