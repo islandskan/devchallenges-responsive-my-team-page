@@ -62,7 +62,7 @@ body {
 
   .container {
     display: grid;
-    column-gap: 1.5em;
+    column-gap: 2.5em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto, 10%);
     margin: 3.5em auto;
@@ -194,7 +194,7 @@ body {
 
   .container {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 2em;
+    row-gap: 3em;
   }
   /* INDIVIDUAL CARDS */
   .team-card:nth-of-type(3) {
@@ -225,6 +225,10 @@ body {
   }
   .about-txt {
     font-size: 1.05rem;
+  }
+
+  .container {
+    column-gap: 5em;
   }
 
   .team-card {
